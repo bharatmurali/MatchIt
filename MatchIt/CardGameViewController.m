@@ -40,6 +40,7 @@
     }
 }
 
+// Adding comment to test git
 -(void) viewWillAppear:(BOOL)animated
 {
     if (_diffLevel != _currentDifficulty)
