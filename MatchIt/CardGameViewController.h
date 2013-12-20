@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CardGameViewController : UIViewController
+@protocol CardGameViewProtocol
+- (void)setData:(NSInteger)difficultyLevel;
+@end
 
+@interface CardGameViewController : UIViewController <UIAlertViewDelegate, CardGameViewProtocol>
 @end
